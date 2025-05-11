@@ -1,1 +1,0 @@
-web: PYTHONPATH=/usr/lib/python3/dist-packages:$PYTHONPATH PORT=5000 gunicorn server.app:app --timeout 120 
